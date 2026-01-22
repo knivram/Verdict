@@ -1,0 +1,16 @@
+{
+  "name": "verdict",
+  "version": "0.1.0",
+  "description": "Real-time audio fact-checker using Gemini Live API",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
